@@ -13,7 +13,7 @@ export default defineConfig({
   },
   server: {
     allowedHosts: [
-      "66a5-182-65-79-170.ngrok-free.app", // ← your ngrok URL
+      "5c89-182-65-79-170.ngrok-free.app", // ← your ngrok URL
     ],
   },
 });

@@ -1,10 +1,13 @@
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent, CardTitle } from "@/components/ui/card";
 
 const PickupLine = () => {
   return (
     <Card className="bg-[#1f1b2e] border border-purple-700 text-purple-100 rounded-2xl shadow-lg">
+      <CardTitle className="text-3xl text-center font-semibold text-purple-100 font-serif tracking-wide">
+        Quote
+      </CardTitle>
       <CardContent className="space-y-3 text-sm leading-relaxed">
-        <p className="text-lg mt-4 text-[#cbd5e1] font-serif font-light leading-relaxed">
+        <p className="text-lg text-justify text-purple-100 font-serif font-light leading-relaxed">
           <span role="img" aria-label="dreams" className="mr-2">
             💭
           </span>
